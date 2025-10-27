@@ -44,3 +44,6 @@
 - Right-tailed test focuses only on upper direction
 
 ---
+The important lesson here is : we reject H0 when α>p : α is probability of Type I error(rejecting H0 when its actually True). 
+But so if the probability of type I error i.e. rejecting null hypothesis is true is less than probability (p-value) that H0 is true then we reject H0. 
+In this case, there is still a chance that H0 is true(5% chance) but we take that calculated risk to make a decision based on available evidence.  
