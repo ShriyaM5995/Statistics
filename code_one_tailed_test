@@ -1,0 +1,22 @@
+import math
+from scipy.stats import norm
+
+mu_0 = 40   # Null mean
+x_bar = 25  # Sample mean
+sigma = 10  # Example population SD (placeholder)
+n = 20
+
+# Z statistic
+z = (x_bar - mu_0) / (sigma / math.sqrt(n))
+
+# Right-tailed p-value
+p_value = 1 - norm.cdf(z)
+
+print("Z-Statistic:", round(z, 3))
+print("P-Value:", round(p_value, 4))
+
+alpha = 0.05
+if p_value < alpha:
+    print("✅ Reject H₀ (statistically significant)")
+else:
+    print("❌ Fail to Reject H₀ (not significant)")
