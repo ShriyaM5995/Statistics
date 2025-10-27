@@ -1,0 +1,46 @@
+
+---
+
+# 📌 notes/hypothesis_test_notes.md
+
+```markdown
+# ✅ Hypothesis Testing Notes (Right-Tailed Z Test)
+
+### Step-by-step
+
+1️⃣ **Define Hypotheses**
+- H₀: μ = 40
+- Hₐ: μ > 40
+
+2️⃣ **Set Significance Level**
+- α = 0.05
+
+3️⃣ **Collect Sample**
+- x̄ = 25
+- n = 20
+
+4️⃣ **Find Standard Deviation**
+- Use known σ, or compute sample SD if needed
+
+5️⃣ **Calculate Z & p-value**
+- Compare p vs α:
+  - If p < α → Reject H₀ → Statistically significant
+  - If p ≥ α → Don’t reject H₀ → Not significant
+
+---
+
+### ✅ Quick Reference Table
+
+| Outcome | Meaning |
+|--------|---------|
+| Reject H₀ | Evidence supports μ > 40 |
+| Fail to Reject H₀ | Not enough evidence that μ increased |
+
+---
+
+### ✨ Notes
+- Larger **n** → stronger power
+- α controls **Type-I error**
+- Right-tailed test focuses only on upper direction
+
+---
